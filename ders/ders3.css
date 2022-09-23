@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+
+
+
+div{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    position: relative;
+    animation-name: example;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+ 
+}
+
+div:hover{
+     width: 600px;
+     height: 337.5px;
+     transition: 4s;
+}
+@keyframes example {
+    0%   {background-color:rgb(255, 255, 255); width: 200px; height: 200px; left:0px; top:0px;}
+    15%   {background-color: brown; width: 300px; height: 300px; border-radius: 60%; left:300px; top:0px;}
+    35%   {background-color: aqua; width: 100px; height: 100px; border-radius: 50%; left:400px; top:0px;}
+    45%  {background-color: darkblue;width: 450px; height: 450px; left:600px; top:0px;}
+    65%  {background-color: blueviolet;width: 250px; height: 250px; left:600px; top:350px;}
+    85%  {background-color: yellow; width: 150px; height: 150px; left:0px; top:350px;}
+    100% {background-color:rgba(0, 0, 0, 0); width: 300px; height: 300px;left:0px; top:0px;}
+  }

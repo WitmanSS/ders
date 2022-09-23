@@ -1,0 +1,37 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+
+
+
+div{
+    width: 400px;
+    height: 225px;
+   background-color: black;
+    position: relative;
+    animation-name: example;
+    animation-duration: 15s;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align:center;
+    animation-iteration-count: infinite;
+ 
+}
+
+div:hover{
+     width: 600px;
+     height: 337.5px;
+     transition: 4s;
+}
+@keyframes example {
+    0%   {background-color:rgb(28, 24, 24);border-radius: 70%; left:0px; top:0px;}
+    15%   {background-image: url(./4A\ Engine\ 27_06_2022\ 12_16_34.png); border-radius: 60%; left:300px; top:0px;}
+    35%   {background-image: url(./Crysis\ 3\ 03_09_2022\ 01_33_54.png) ;border-radius: 50%; left:400px; top:0px;}
+    45%  {background-image: url(./Left\ 4\ Dead\ 2\ -\ Direct3D\ 9\ 24_03_2022\ 03_06_51.png); border-radius: 40%;left:600px; top:0px;}
+    65%  {background-image: url(./TheForest\ 27_06_2022\ 00_01_58.png); border-radius: 30%;left:600px; top:350px;}
+    85%  {background-image: url(./War\ Thunder\ -\ Savaşta\ 24_06_2022\ 00_17_31.png);border-radius:20% ; left:0px; top:350px;}
+    100% {background-color:rgba(0, 0, 0, 0); border-radius: 10%; left:0px; top:0px;}
+  }
